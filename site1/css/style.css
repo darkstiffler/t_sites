@@ -4,7 +4,12 @@
 html {
 	font-family: "Ubuntu", sans-serif;
 }
-
+#container {
+	width: 500px;
+	background-image: url(../img.png);
+	border: 2px solid black;
+	margin: 0 auto;
+}
 .generate {
 	border: 1px solid black;
 	padding: 3px;
