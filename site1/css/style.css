@@ -1,0 +1,39 @@
+/* font imports */
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+html {
+	font-family: "Ubuntu", sans-serif;
+}
+
+.generate {
+	border: 1px solid black;
+	padding: 3px;
+	display: inline;
+}
+#funBox1, #funBox2 {
+	height: 100px;
+	width: 100px;
+	border: 2px solid black;
+	margin: 10px;
+}
+#funBox1 {
+	background-color: blue;
+}
+#funBox2 {
+	background-color: red;
+}
+.hide {
+	display: none;
+}
+.s {
+	position: relative;
+	top: 35px;
+	left: 20px;
+}
+#funBox3 {
+	height: 1em;
+	width: 1em;
+	border-radius: 30px;
+	background-color: red;
+	border: 1px solid black;
+}
